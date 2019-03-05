@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>找书</title>
+<style>
+	    .shuru{
+                border: 1px solid #ccc;
+                padding: 7px 0px;
+                border-radius: 3px;
+                padding-left:5px;
+                -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+                box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+                -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+                -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+                transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+            }
+       .shuru:focus{
+                    border-color: #66afe9;
+                    outline: 0;
+                    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+                    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+            }
+		.anniu1 {  
+        width: 100px;  
+        padding:4px;  
+        background-color: #428bca;  
+        border-color: #357ebd;  
+        color: #fff;  
+        -moz-border-radius: 10px;  
+        -webkit-border-radius: 10px;  
+        border-radius: 10px; /* future proofing */  
+        -khtml-border-radius: 10px; /* for old Konqueror browsers */  
+        text-align: center;  
+        vertical-align: middle;  
+        border: 1px solid transparent;  
+        font-weight: 900;  
+        font-size:125%  
+      } 
+	  body{ background-image:url(../images/444.jpg);background-position:left top; background-repeat:no-repeat}
+</style>
+</head>
+
+<body>
+<form>
+<table align="center" style="border-collapse:separate; border-spacing:0px 10px;">
+<tr><td>作者:</td>
+  <td><input name="text"  type="text" class="shuru" size="11" /></td>
+</tr>
+<tr><td>译者:</td><td> <input  type="text" size="11" class="shuru"/></td></tr>
+<tr><td>定价:</td><td><input type="text" size="11" name="money1" maxlength="10" class="shuru"/>—
+										<input type="text" size="11" name="money2" maxlength="10" class="shuru"/>元</td></tr>
+<tr><td>书籍类型</td><td> 
+				<input type="checkbox" name="chk" value="1" />科幻
+				<input type="checkbox" name="chk" value="2" />心理
+				<input type="checkbox" name="chk" value="3" />悬疑
+				<input type="checkbox" name="chk" value="4" />经济
+				</td></tr>
+<tr><td>国家:</td><td><select name="slt">
+			<option value="1" selected="selected">中国</option>
+			<option value="2">爱尔兰</option>
+			<option value="3">美国</option>
+			<option value="4">英国</option>
+			</select></td></tr>
+<tr>   <td>语言：</td>		
+		<td><input  type="radio" name="languae" value="1" checked="checked"/>中文
+		<input  type="radio" name="languae" value="2" />英文
+		<input  type="radio" name="languae" value="3" />日文		</td>		</tr>
+		<tr><td colspan="2" align="center">
+		<input  type="submit" name="add" value="查询" class="anniu1"/>&nbsp;&nbsp;&nbsp;
+		<input  type="reset" name="res"  value="重置" class="anniu1"/>
+		</td></tr>
+</table>
+
+</form>
+</body>
+</html>

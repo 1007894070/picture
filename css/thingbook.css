@@ -1,0 +1,19 @@
+<style>
+body{ background-image:url(../images/555.jpg);background-position:center; background-repeat:no-repeat}
+.anniu1 {  
+        width: 100px;  
+        padding:4px;  
+        background-color:#FF6633;  
+        border-color: #357ebd;  
+        color: #fff;  
+        -moz-border-radius: 10px;  
+        -webkit-border-radius: 10px;  
+        border-radius: 10px; /* future proofing */  
+        -khtml-border-radius: 10px; /* for old Konqueror browsers */  
+        text-align: center;  
+        vertical-align: middle;  
+        border: 1px solid transparent;  
+        font-weight: 900;  
+        font-size:125%  
+      } 
+</style>
